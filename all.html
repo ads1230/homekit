@@ -6,7 +6,7 @@ navigation: 19
 <h2>{{ page.title }}</h2>
 
 <!-- ######################################################################  -->
-{% assign category = site.zigbee %}
+{% assign category = site.homekit %}
 {% assign type_group = category | group_by: 'category' | sort_natural %}
 {% assign type_grouped = type_group | sort: 'model' %}
 {% for group in type_grouped %}

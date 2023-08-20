@@ -4,7 +4,7 @@ title: sorted by manufacturer
 ---
 <h2>{{ page.title }}</h2>
 <!-- ######################################################################  -->
-{% assign gateway = site.zigbee %}
+{% assign gateway = site.homekit %}
 {% assign types = gateway | group_by: 'vendor' | sort_natural: "name"  %} 
     {% for type in types %}
     <h3> {{ type.name }} </h3>

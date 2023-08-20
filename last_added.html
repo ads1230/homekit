@@ -8,7 +8,7 @@ navigation: 19
 <!-- ######################################################################  -->
 <table width="80%">
     <tbody>
-    {% assign devices = site.zigbee | where_exp: "devices", "devices.date_added != nil" | sort_natural: 'date_added' | reverse %}     
+    {% assign devices = site.homekit | where_exp: "devices", "devices.date_added != nil" | sort_natural: 'date_added' | reverse %}     
     {% for template in devices limit: 200 %}
     {% include tablerow.html %}
     {% endfor %}

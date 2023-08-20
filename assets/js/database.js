@@ -2,8 +2,8 @@
 ---
 
 window.database = {
-  {% for page in site.zigbee %}
-    {% if page.layout != 'zigbee' %}
+  {% for page in site.homekit %}
+    {% if page.layout != 'homekit' %}
       {% continue %}
     {% endif %}
     "{{ page.url | slugify }}": {

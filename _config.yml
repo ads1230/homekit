@@ -1,6 +1,5 @@
-title: Zigbee Device Compatibility Repository
-description: Database of Zigbee devices compatible with ZHA, Tasmota, Zigbee2MQTT, deCONZ, ZiGate and ioBroker
-url: "https://zigbee.blakadder.com"
+title: HomeKit Device Compatibility Repository
+description: Database of HomeKit compatible devices
 
 # Build settings
 markdown: kramdown
@@ -21,23 +20,21 @@ sass:
   style: compressed
 
 collections:
-  zigbee:
+  homekit:
     output: true
     permalink: /:title.html
 
 defaults:
   - scope:
       path: ""
-      type: "zigbee"
+      type: "homekit"
     values:
-      layout: "zigbee"
+      layout: "homekit"
 
 plugins:
   - jekyll-seo-tag
   - jekyll-sitemap
   
-google_analytics: UA-140681905-3
-
 image_processing:
   table:
     source: assets/images/devices

@@ -5,7 +5,7 @@ title: Lights
 <h2>{{ page.title }}</h2>
 
 <!-- ######################################################################  -->
-{% assign categories = site.zigbee | where: "category", "light" %}
+{% assign categories = site.homekit | where: "category", "light" %}
 {% assign vendor = categories | group_by: 'vendor' %} 
 {% assign vendors = vendor | sort_natural: 'name' %} 
 <table>
