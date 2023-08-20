@@ -5,5 +5,6 @@ title: Omna Security Camera
 category: camera
 zigbeemodel: ['DSH-C310']
 compatible: [wifi]
+EOA: Y
 mlink: https://eu.dlink.com/uk/en/products/dsh-c310-omna-180-cam-hd
 ---

@@ -5,5 +5,6 @@ title: Circle 2
 category: camera
 zigbeemodel: ['N219088W']
 compatible: [wifi]
+EOA: Y
 mlink: https://www.logitech.com/en-gb/eol/circle-2.html
 ---
